@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  /* background: red; */
 }
 
 #header.header-scrolled {
@@ -174,9 +174,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a, .navbar a:focus {
+  position:static;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* background-color: red; */
+  /* start: 50px ; */
+  align-items: right;
+  justify-content:right;
   padding: 10px 0 10px 24px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
