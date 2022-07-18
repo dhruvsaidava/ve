@@ -509,7 +509,7 @@ i, cite, em, var, address, dfn {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background-color: #fff; }
+  background-color: rgb(255, 255, 255); }
 
 .loader {
   position: absolute;
@@ -1953,7 +1953,7 @@ Back To Top Section
   border-color: #ccc;
   text-align: center;
   margin-bottom: 40px;
-  background-color: #f6f6f6;
+  background-color: white;
   border-radius: 0; }
   .panel-pricing.best .price {
     background-color: #46c2ca; }
@@ -1978,7 +1978,7 @@ Back To Top Section
     font-weight: 700;
     padding-top: 10px; }
   .panel-pricing > .panel-heading {
-    color: #666666;
+    color: black;
     border-color: #eee;
     padding: 0px 0px; }
   .panel-pricing .table > tbody > tr > td, .panel-pricing .table > tfoot > tr > td {
